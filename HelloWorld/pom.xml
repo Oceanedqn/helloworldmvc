@@ -5,7 +5,6 @@
   <groupId>fr.exia</groupId>
   <artifactId>HelloWorld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>HelloWorld</name>
   <url>http://maven.apache.org</url>
@@ -22,4 +21,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>helloworldmvc.view</module>
+  	<module>helloworldmvc.controller</module>
+  	<module>helloworldmvc.model</module>
+  	<module>helloworldmvc.Contract</module>
+  	<module>helloworldmvc.main</module>
+  </modules>
 </project>
